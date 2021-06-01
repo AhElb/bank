@@ -115,7 +115,7 @@ $("#togglePassword").removeClass('fas fa-eye-slash');
 
 
 $(".Transactions").css({right: 0});
-$(".all").css({right: 3000+"px" });
+$(".all").css({left: -3000+"px" });
 
 $(this).addClass("linke_acctive");
 $('.acc_btn').removeClass("linke_acctive")
