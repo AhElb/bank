@@ -123,4 +123,13 @@ $('.acc_btn').removeClass("linke_acctive")
 
         });
 
+          $(".menu_bar").click(function(){
+
+
+
+$(".link").toggleClass("hightt");
+
+
+        });
+
 });

@@ -106,6 +106,7 @@
 .link{
 	padding: 25px 0;
 	list-style: none;
+    transition: height 0.5s ease-out;
 }
 .link ul {
 	list-style: none;
@@ -224,7 +225,7 @@ transition: all 0.5s;
 	color: #e9445a;
 }
 .main{
-	
+	width: 100%;
 }
 
 .box{
@@ -233,6 +234,7 @@ border-radius: 20px;
 
         padding: 15px;
     margin: 10px;
+    height: 170px;
     }
 
     .left {
@@ -272,10 +274,10 @@ border-radius: 20px;
     }
 
 
-@media(max-width: 430px){
+@media(max-width: 350px){
 
 	.main ul{
-		display: inline-block;
+		display: block;
 
 	}
 }
@@ -388,3 +390,53 @@ color:#0000007a;
  		font-size: 15px;
  	}
  }
+
+ @media(max-width: 767px){
+
+ 	.link {
+    padding:  0; 
+    list-style: none;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+ }
+
+
+
+}
+
+ @media(min-width: 768px){
+ 	.menu_bar{
+ 		display: none;
+ 	}
+ }
+
+.menu_bar span{
+    height: 3px;
+    width: 20px;
+    background-color: #e9445a;
+    border-radius: 10px;
+    display: block;
+    margin: 2px;
+
+}
+.menu_bar{
+	float: right;
+}
+.hightt{
+	height: 100%;
+    transition: height 0.5s ease-out;
+}
+
+.flag{    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    right: 40px;}
+
+    .flag img{
+    	    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    }
