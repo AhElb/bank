@@ -235,6 +235,8 @@ border-radius: 20px;
         padding: 15px;
     margin: 10px;
     height: 170px;
+        width: 100%;
+
     }
 
     .left {
