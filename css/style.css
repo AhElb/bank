@@ -906,7 +906,7 @@ font-size: 16px;
 	.layout{
 		text-align: center;
 		width: 100%;
-		z-index: -1;
+
 	}
 
 	.startar{
@@ -947,6 +947,30 @@ font-size: 16px;
 @media(max-width: 375px){
 	.layout{
 		display: grid;
-		top: 25px;
+		top: 20px;
 	}
+}
+
+
+
+.login a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #e9445a;
+    line-height: 1;
+    text-decoration: none;
+    	transform: translateX(0px);
+
+    	transition: 0.2s;
+
+}
+.login i{
+	transition: 0.2s;
+}
+.login{
+	padding: 200px 0;
+}
+.login a:hover i{
+	transform: translateX(-10px);
+	transition: 0.2s;
 }
