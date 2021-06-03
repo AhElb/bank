@@ -58,6 +58,45 @@ $("#owl-example").owlCarousel({
 
     }); 
 
+
+
+$(".owl-carousel").owlCarousel({
+ 
+    // Most important owl features
+    items : 1,
+    itemsCustom : false,
+          singleItem:true,
+
+
+     autoPlay : false,
+    navigation : false,
+     rewindNav : false,
+         pagination : false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:true
+        },
+        1000:{
+            items:1,
+            nav:true,
+        }
+    },
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
+    loop:Infinity, 
+ 
+
+
+    }); 
+
+ 
+
     $(".over").click(function(){
 $(this).next('.inner_links').toggleClass("show_dawn") ;
 $(this).children(".point").toggleClass("rotate");
@@ -114,7 +153,7 @@ $("#togglePassword").removeClass('fas fa-eye-slash');
 
 
 
-$(".Transactions").css({right: 0});
+$(".Transactions").css({right: 0,display : "block"});
 $(".all").css({left: -3000+"px" });
 
 $(this).addClass("linke_acctive");
@@ -131,5 +170,23 @@ $(".link").toggleClass("hightt");
 
 
         });
+
+
+var owl = $(".owl-carousel");
+
+$(".next").click(function(){
+ owl.trigger('owl.next');
+   });
+
+
+  $(".prev").click(function(){
+    owl.trigger('owl.prev');
+  });
+ 
+
+
+
+
+
 
 });

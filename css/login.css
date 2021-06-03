@@ -101,6 +101,10 @@
 .dashbord{
 
     padding: 50px 100px;
+      overflow-x:hidden ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .link{
@@ -306,6 +310,7 @@ font-size: 20px;
     right: -3000px;
     padding: 10px;
     width: 100%;
+    display: none;
     transition: all 0.5s;
 }
 
@@ -434,7 +439,7 @@ color:#0000007a;
     height: 60px;
     overflow: hidden;
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 40px;}
 
     .flag img{
@@ -442,3 +447,279 @@ color:#0000007a;
     height: 100%;
     border-radius: 100%;
     }
+
+    .visa_card{
+    	    box-shadow: 0px 1px 5px 1px #cecececc;
+
+    	     height: 225px;
+    padding: 15px;
+    border-radius: 10px;
+
+    margin: 15px 0;
+
+
+    }
+
+    .visa_card i{
+    	    float: right;
+    font-size: 40px;
+    opacity: 0.5;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+
+    }
+
+       .visa_card h1{
+       	font-size: 25px;
+       	font-weight: 600;
+       	opacity: 0.5;
+
+
+       }
+
+       .info_card{
+       	margin-top: 70px;
+       }
+       .info_card h3{
+       		font-size: 20px;
+    		font-weight: 600;
+       }
+
+              .info_card h4{
+              	font-weight: 600;
+
+}
+
+
+
+.switch {
+     display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
+    top: 25px;
+   
+
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.block_details{
+	    	    box-shadow: 0px 1px 5px 1px #cecececc;
+	    	    border-radius: 10px;
+
+}
+
+.line_details{
+	position: relative;
+	padding: 15px;
+	    border-bottom: 1px solid #a6a6a62e;
+	    display: flex;
+
+}
+
+.usage{
+	    margin: 15px 0;
+
+}
+
+
+.line_details h3{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.line_details h6{
+	opacity: 0.5;
+font-size: 14px;}
+
+.card_d h2{
+	font-size: 25px;
+    font-weight: 600;
+    color: #393b3c;
+}
+
+.usage h4{
+
+	font-size: 17px;
+    font-weight: 600;
+
+}
+
+.action_line i{
+	    font-size: 25px;
+    padding:  20px;
+    box-shadow: 0px 1px 5px 1px #cecececc;
+    margin: 0 15px;
+    border-radius: 10px;
+    color: #393b3c;
+    opacity: 0.5;
+    height: fit-content;
+
+}
+
+    .action_line{
+    	display: inline-flex;
+    	    margin: 15px 0;
+
+    }
+
+    .action_active{
+    	color: #e9445a !important;
+    	opacity: 1 !important;
+    }
+
+    .action_line h4{
+    	word-spacing: 2px;
+    	letter-spacing: 1px;
+    	font-size: 17px;
+    	font-weight: 600;
+    	opacity: 0.8;
+    }
+
+        .action_line h6{
+
+        	letter-spacing: 1px;
+    	font-size: 15px;
+    	opacity: 0.5;
+        }
+
+        .card_action h3{
+        	font-size: 20px;
+    font-weight: 600;
+        }
+
+        .cards_limit{
+        	    box-shadow: 0px 1px 5px 1px #cecececc;
+        	    border-radius: 10px;
+        	            	padding: 20px;
+        	            	overflow: hidden;
+        	            	    margin-bottom: 25px;
+
+
+
+
+        }
+
+
+        .limits_line{
+        	display: inline-flex;
+        	border-bottom: 1px solid #a6a6a62e;
+        }
+
+        .limit_amount{
+        	text-align: center;
+        	padding: 25px;
+
+
+        }
+
+        .limit_amount p{
+        	    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.7;
+        }
+
+        .limits_line h3{
+
+        	font-size: 20px;
+        	font-weight: 600;
+        }
+
+        .limits_line h6{
+
+        	letter-spacing: 0.5px;
+    	font-size: 14px;
+    	opacity: 0.5;
+
+        }
+
+
+        .current{
+        	font-size: 25px;
+    font-weight: 600;
+    color: #393b3c;
+        }
+
+        .card_d{
+
+        	right: 0;
+        	overflow: hidden;
+        	width: 100%;
+        	transition: 0.2s;
+
+        }
+
+        .other_card{
+        	margin: 5px 15px;
+        	font-size: 16px;
+            text-align: end;
+            width: 90%;
+
+        }
+        .other_card a{
+        	color: #e9445a;
+        	text-decoration: none;
+        	cursor: pointer;
+            margin: 5px;
+        }
+
+        .card_right{
+        		position: absolute;
+        	right: 3000px !important;
+        	overflow: hidden;
+        	width: 100%;
+        	transition: 0.2s;
+        }

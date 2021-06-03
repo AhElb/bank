@@ -1,0 +1,142 @@
+.account_profile{
+ 	    box-shadow: 0px 1px 5px 1px #cecececc;
+ 	    padding: 10px;
+ 	    margin: 150px 0;
+ 	    border-radius: 10px;
+
+}
+
+
+.head_{
+	display: flex;
+
+	  border-bottom: 1px solid #a6a6a62e;
+
+}
+
+.head_ h5{
+	    width: fit-content;
+    margin: 20px 5px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: #e9445a;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.head_ h2{
+
+	font-size: 20px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.body_ label{
+	
+
+    display: flex;
+    margin: 15px;
+
+}
+.body_ label h4{
+
+	    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    color: #3b3d3e;
+    line-height: 1.5;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;
+}
+.body_ label h5{
+	width: 100%;
+	 line-height: 1.5;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.profile_sieting{
+	width: 100%;
+
+	box-shadow: 0px 1px 5px 1px #cecececc;
+	margin: 150px 0;
+	    padding: 15px;
+    border-radius: 10px;
+
+
+}
+
+.profile_links ul{
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	border-bottom: 1px solid #a6a6a62e;
+
+}
+
+.profile_links ul li{
+	display: inline-block;
+	padding: 15px;
+}
+.profile_links ul li a{
+
+	font-size: 16px;
+	color: #3b3d3e;
+	text-decoration: none;
+	font-weight: 600;
+	opacity: 0.7;
+	transition: 0.2s;
+
+}
+.profile_links ul li i{
+	font-size: 17px;
+	margin: 5px;
+}
+
+.profile_links ul li a:hover{
+color: #e9445a;
+opacity: 1;
+transition: 0.2s;
+}
+.active_set{
+
+	color: #e9445a;
+opacity: 1;
+border-bottom: 2px solid #e9445a;}
+
+.active_link{
+	color: #e9445a !important;
+	opacity: 1 !important;
+}
+
+.inner_body{
+	position: relative;
+}
+
+.notf_line{
+	display: flex;
+}
+.switch{
+top: 20px;}
+
+.notf_line h4{    font-size: 17px;
+    font-weight: 600;
+    word-spacing: 1px;
+    margin: 25px 0px;
+    width: 50%;
+}
+
+@media(max-width: 1100px){
+
+	.dashbord {
+    padding: 50px 5px;}
+}
+
+
+@media(max-width: 991px){
+
+	.profile_sieting{margin: 10px 0;}    
+	.account_profile{margin-bottom: 10px;}
+
+
+}
