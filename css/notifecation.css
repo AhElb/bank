@@ -1,0 +1,14 @@
+  .Notifcation_body_left{
+            width: 50%;
+            height: 100%;
+            background-color: #393b3c;
+            float: left;
+        }
+        .Notifcation_body_right{
+
+
+             width: 50%;
+            height: 100%;
+            background-color: #ffffff;
+            float: right;
+        }
