@@ -976,3 +976,8 @@ font-size: 16px;
 	transform: translateX(-10px);
 	transition: 0.2s;
 }
+
+.navbar-default .navbar-toggle {
+
+	z-index: 5;
+}
