@@ -7,6 +7,7 @@
     padding: 35px;
         top: 0;
     bottom: 0;
+    background: linear-gradient(105deg, #e9445a, #465765);
 }
         
         .Notifcation_body_right{
