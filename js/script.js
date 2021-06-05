@@ -157,7 +157,9 @@ $(".Transactions").css({right: 0,display : "block"});
 $(".all").css({left: -3000+"px" });
 
 $(this).addClass("linke_acctive");
-$('.acc_btn').removeClass("linke_acctive")
+$('.acc_btn').removeClass("linke_acctive");
+
+$('.dropdown-toggle').text("Transactions");
 
 
         });

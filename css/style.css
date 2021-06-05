@@ -399,7 +399,7 @@ display: block;
 }
 
 .slideInDown{
-	box-shadow: 0 0.05rem 0.01rem rgb(75 75 90 / 8%);
+	box-shadow:  0 16px 24px rgb(0 0 0 / 8%);
     border-color: transparent;
     background-color: #ffffff;
     transition: 0.2s;
@@ -980,5 +980,5 @@ font-size: 16px;
 .navbar-default .navbar-toggle {
 
 	z-index: 5;
-	
+
 }
