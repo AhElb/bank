@@ -160,7 +160,7 @@ padding-left: 0;
 .limit_head a{
 	       text-align: center;
     padding: 5px 10px;
-    height: fit-content;
+    height: 100%;
     border-radius: 25px;
     color: #e9445a;
     text-decoration: none;
@@ -467,6 +467,7 @@ background-color: #ffffff;
     display: grid;
     border: 0;
     box-shadow: 0 0 0 0;
+    width: 100%;
 }
 .activity_head h5{
  font-size: 15px;
@@ -526,7 +527,7 @@ word-spacing: 1px;
 
 .Acctivity_line{
 	display: flex;
-	    margin: 15px 5px;
+	    margin: 20px 5px;
 
 }
 
@@ -704,4 +705,13 @@ letter-spacing: 1px;}
 
 .dasbord_links ul li a i{
 	font-size: 20px;
+}
+
+
+.tot_money .open>.dropdown-menu {
+    display: grid;
+    border: 0;
+    box-shadow: 0 0 0 0;
+    text-align: center;
+    width: 100%;
 }
