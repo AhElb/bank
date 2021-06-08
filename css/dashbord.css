@@ -1,3 +1,19 @@
+@font-face {
+  font-family: arial;
+  src: url(../fonts/ARIAL.ttf);
+}
+@font-face {
+  font-family: arialb;
+  src: url(../fonts/ARIALBD.ttf);
+}
+
+@font-face {
+  font-family: tahma;
+  src: url(../fonts/Tahoma Regular font.ttf);
+}
+
+
+
 body{
 overflow-x: hidden;
 background-color: transparent;
@@ -68,7 +84,8 @@ background-color: transparent;
 	font-weight: 600;
 	opacity: 0.7;
 		transition: 0.2s;
-		    font-family: monospace;
+		    font-family: 'arialb';
+
 
 
 }
@@ -127,6 +144,8 @@ padding-left: 0;
 	font-weight: 600;
 	opacity: 0.7;
 	margin-bottom: 15px;
+	    font-family: arialb;
+
 }
 .limit_head{
 	display: flex;
@@ -140,11 +159,10 @@ padding-left: 0;
     color: #e9445a;
     text-decoration: none;
     box-shadow: inset 0 0 0 1px #e9445a;
-    font-weight: bold;
     opacity: 0.8;
     transition: 0.2s;
         margin: 10px 5px;
-font-family: monospace;
+    font-family: 'arial';
 letter-spacing: 1.5px;
 
 }
@@ -184,6 +202,7 @@ letter-spacing: 1.5px;
     color: #393c3d85;
     text-decoration: none;
         transition: 0.2s;
+        	    font-family: 'arial';
 
 }
 
@@ -198,7 +217,6 @@ letter-spacing: 1.5px;
 .actions li a:hover{
 
 	    font-size: 14px;
-    font-weight: 600;
     color: #393c3d;
     transition: 0.2s;
 }
@@ -220,6 +238,8 @@ letter-spacing: 1.5px;
 	font-size: 25px;
 	font-weight: 600;
 	opacity: 0.7;
+	    font-family: tahma;
+
 }
 .drop_mm{
 	height: 0px;
@@ -293,6 +313,7 @@ background-color: #ffffff;
     opacity: 0.7;
     margin-bottom: 5px;
         border-bottom: 1px solid #00000020;
+    font-family: 'arialb';
 
 
     }
@@ -302,6 +323,8 @@ background-color: #ffffff;
     	font-size: 14px;
     	color: #393c3d;
     	opacity: 0.7;
+    	    font-family: 'arialb';
+
     }
     .iban{
     	display: flex;
@@ -321,7 +344,7 @@ background-color: #ffffff;
     .iban h4{
     margin: 5px 0 0 10px;
     font-size: 18px;
-    font-family: emoji;
+    font-family: 'arialb';
     font-weight: 600;
     opacity: 0.8;
     letter-spacing: 1px;
@@ -353,7 +376,7 @@ background-color: #ffffff;
       .card h4{
     margin: 5px 0 0 10px;
     font-size: 18px;
-    font-family: emoji;
+    font-family: arialb;
     font-weight: 600;
     opacity: 0.8;
     letter-spacing: 1px;
@@ -372,7 +395,7 @@ background-color: #ffffff;
 .cur h4{
  margin: 5px 0 0 10px;
     font-size: 18px;
-    font-family: serif;
+    font-family: tahma;
     font-weight: 600;
     opacity: 0.7;
     letter-spacing: 1px;
@@ -446,6 +469,8 @@ background-color: #ffffff;
     font-weight: 600;
     opacity: 0.7;
     margin-bottom: 5px;
+        font-family: 'arialb';
+
 }
 
 .activity_head {
@@ -465,7 +490,7 @@ word-spacing: 1px;
 
     color: #393c3d;
     text-decoration: none;
-        font-family: emoji;
+    font-family: 'arialb';
         transition: 0.2s;
 
 
@@ -504,7 +529,7 @@ word-spacing: 1px;
 font-size: 15px;
     font-weight: 600;
     opacity: 0.8;
-    font-family: 'Font Awesome 5 Brands';
+    font-family: auto;
 }
 .who h6{
 
