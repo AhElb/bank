@@ -427,6 +427,12 @@ background-color: #ffffff;
 }
 
 
+.activity_head .show  {
+    display: block!important;
+    margin: 5px 0 !important;
+}
+
+
 
 .open>.dropdown-menu {
     display: grid;
@@ -645,4 +651,12 @@ margin-top: 30px;}
 	.dasbord_links ul li{
 		display: block;
 	}
+}
+
+@media (max-width: 375px){
+	.show a {
+    font-size: 12px;
+word-spacing: 0;
+letter-spacing: 1px;}
+
 }
