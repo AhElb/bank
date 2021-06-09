@@ -91,9 +91,16 @@ background-color: transparent;
 		    font-family: 'arialb';
 		    word-spacing: 5px;
 		    letter-spacing: 1px;
+		    margin: 1px 5px;
 
 
 
+}
+.con{
+	display: flex;
+}
+.con i{
+	opacity: 0.5;
 }
 .dasbord_links ul li a:hover{
 	opacity: 1;
@@ -243,7 +250,7 @@ letter-spacing: 1.5px;
 	font-size: 25px;
 	font-weight: 600;
 	opacity: 0.7;
-	    font-family: time;
+    font-family: 'arialb';
 
 }
 .drop_mm{
@@ -486,6 +493,14 @@ background-color: #ffffff;
 	        border-bottom: 1px solid #00000020;	
 
 }
+.dasbord_links ul li:hover i{
+	opacity: 1;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.dasbord_links ul li{
+	cursor: pointer;
+}
 
 .show a{
 font-size: 15px;
@@ -575,44 +590,7 @@ html{
 }
 
 
-@media(max-width: 1100px){
 
-	.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 10px;
-    margin: 20px 0px;}
-
-
-    .dasbord_links{
-    margin: 30px 10px;
-    }
-
-    .limit_row {
-    margin: 0px 10px;
-}
-.transfer_limit{
-	margin: 0;
-}
-
-.actions{
-	margin: 0;
-}
-
-.tot_money{
-	margin: 0;
-}
-
-.Prim_acc {
-    margin: 30px 10px;}
-
-    .Recent_ac {
-    margin: 0 10px;
-        margin-bottom: 30px;
-
-}
-
-}
 
 @media(max-width: 767px){
 	.limit_row{
@@ -703,7 +681,7 @@ letter-spacing: 1px;}
 }
 
 
-.dasbord_links ul li a i{
+.dasbord_links ul li i{
 	font-size: 20px;
 }
 
@@ -714,4 +692,132 @@ letter-spacing: 1px;}
     box-shadow: 0 0 0 0;
     text-align: center;
     width: 100%;
+}
+
+
+
+
+.acc_body{
+	    box-shadow: 0px 1px 5px 1px #cecececc;
+	    background-color: #ffffff;
+	        border-radius: 4px;
+	            padding: 10px;
+	                margin-top: 30px;
+
+
+
+
+
+}
+
+.accounts{
+	margin: 30px 200px;
+	    display: flow-root;
+
+}
+.acc_head img{    width: 60px;
+    border-radius: 100%;
+    height: 60px;}
+
+   .acc_head {display: flex;
+    justify-content: space-between;
+        padding: 30px 0 0;
+
+}
+
+.acc_head h2{
+    margin: 5px 0;
+    font-size: 22px;
+    font-family: 'arialb';
+    font-weight: bold;
+    opacity: 0.6;
+}
+.acc_head h6{
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+.acc_body h5{
+	    font-size: 24px;
+    font-family: 'arialb';
+    opacity: 0.6;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    color: #393c3d;
+}
+
+.left{
+	padding-left: 0;
+}
+
+.right{
+	padding-right: 0;
+}
+
+
+.hhicon{
+	display: flex;
+	justify-content: space-between;
+}
+
+.hhicon h6{
+	margin: 0;
+	font-size: 15px;
+	font-family: arial;
+	opacity: 0.7;
+}
+
+.left_ic a{
+	margin: 5px;
+}
+@media(max-width: 1100px){
+
+	.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin: 20px 0px;}
+
+
+    .dasbord_links{
+    margin: 30px 10px;
+    }
+.accounts {
+    margin: 30px 10px;
+}
+    .limit_row {
+    margin: 0px 10px;
+}
+.transfer_limit{
+	margin: 0;
+}
+
+.actions{
+	margin: 0;
+}
+
+.tot_money{
+	margin: 0;
+}
+
+.Prim_acc {
+    margin: 30px 10px;}
+
+    .Recent_ac {
+    margin: 0 10px;
+        margin-bottom: 30px;
+
+}
+
+}
+
+@media(max-width: 767px){
+
+	.left{
+		padding-right: 0;
+	}
+
+	.right{
+		padding-left: 0;
+	}
 }
