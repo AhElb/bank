@@ -65,7 +65,7 @@ background-color: transparent;
 }
 .dasbord_links ul li{
 	display: inline-block;
-	margin: 5px 10px;
+	margin: 15px 10px;
 }
 
 .dasbord_links{
@@ -695,7 +695,9 @@ letter-spacing: 1px;}
 }
 
 
-
+.cards_body{
+	margin: 30px 200px;
+}
 
 .acc_body{
 	    box-shadow: 0px 1px 5px 1px #cecececc;
@@ -710,6 +712,126 @@ letter-spacing: 1px;}
 
 }
 
+
+.cards_body h6{
+	margin: 0;
+    font-size: 15px;
+    font-family: arial;
+    opacity: 0.7;
+        width: 100%;
+
+}
+
+.visa_card h1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'arialb';
+    opacity: 0.5;
+    color: #393c3d;
+}
+.visa_card i {
+    float: right;
+    font-size: 35px;
+    opacity: 0.5;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+}
+
+.info_card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'arialb';
+    opacity: 0.7;
+}
+
+.info_card h4 {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+
+.usage h4 {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.8;
+    font-family: 'arialb';
+}
+
+.line_details h3 {
+    font-size: 17px;
+    font-family: 'arialb';
+    opacity: 0.8;
+    line-height: 2;
+}
+
+.card_action h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'arialb';
+    opacity: 0.8;
+}
+
+.action_line i {
+    font-size: 25px;
+    padding: 20px;
+    box-shadow: 0px 1px 5px 1px #cecececc;
+    margin: 0 15px;
+    border-radius: 10px;
+    color: #393b3c;
+    opacity: 0.5;
+    height: 100%;
+    background-color: #ffffff;
+}
+.visa_card {
+    box-shadow: 0px 1px 5px 1px #cecececc;
+    height: 225px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+    background-color: #ffffff;
+}
+
+.block_details {
+    box-shadow: 0px 1px 5px 1px #cecececc;
+    border-radius: 10px;
+    background-color: #ffffff;}
+
+
+    .action_line h4 {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.8;
+    font-family: 'arialb';
+}
+
+.card_d h3{
+	font-size: 16px;
+    font-weight: 600;
+    opacity: 0.8;
+    font-family: 'arialb';
+}
+.other_card {
+    margin: 0;}
+
+.cards_limit {
+    box-shadow: 0px 1px 5px 1px #cecececc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.card_line{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
 .accounts{
 	margin: 30px 200px;
 	    display: flow-root;
@@ -808,6 +930,9 @@ letter-spacing: 1px;}
         margin-bottom: 30px;
 
 }
+
+.cards_body {
+    margin: 30px 10px;}
 
 }
 
