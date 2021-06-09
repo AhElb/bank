@@ -700,7 +700,7 @@ letter-spacing: 1px;}
 .acc_body{
 	    box-shadow: 0px 1px 5px 1px #cecececc;
 	    background-color: #ffffff;
-	        border-radius: 4px;
+	        border-radius: 20px;
 	            padding: 10px;
 	                margin-top: 30px;
 
@@ -721,7 +721,7 @@ letter-spacing: 1px;}
 
    .acc_head {display: flex;
     justify-content: space-between;
-        padding: 30px 0 0;
+        padding: 30px 30px;
 
 }
 
@@ -741,7 +741,7 @@ letter-spacing: 1px;}
 	    font-size: 24px;
     font-family: 'arialb';
     opacity: 0.6;
-    padding: 20px 0;
+    padding: 20px 30px;
     letter-spacing: 1px;
     color: #393c3d;
 }
