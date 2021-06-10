@@ -69,7 +69,7 @@ background-color: transparent;
 }
 
 .dasbord_links{
-	margin: 100px 200px;
+	margin: 50px 200px;
     box-shadow: 0px 1px 5px 1px #cecececc;
     padding: 10px 10px;
         border-radius: 4px;
@@ -1101,4 +1101,19 @@ letter-spacing: 1px;}
      font-weight: 100; 
     opacity: 0.8;
     font-family: 'arial';
+}
+
+.account .dropdown-menu{
+	background-color: transparent;
+}
+.account {
+	display: inline-flex;
+}
+
+.account .dropdown {
+	margin: 5px;
+}
+
+.show i {
+    color: #e9445a;
 }
