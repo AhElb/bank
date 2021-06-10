@@ -71,6 +71,7 @@
 	list-style: none;
 	padding: 0;
 	border-bottom: 1px solid #a6a6a62e;
+	width: 100%;
 
 }
 
@@ -143,3 +144,6 @@ top: 20px;}
 	.dashbord {
     padding: 50px 5px;}
 }
+
+
+
