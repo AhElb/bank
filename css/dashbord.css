@@ -1062,3 +1062,43 @@ letter-spacing: 1px;}
     justify-content: space-between;
 }
 }
+
+
+.one_trans{
+	background-color: #ffffff;
+	    box-shadow: 0px 1px 5px 1px #cecececc;
+	    border-radius: 4px;
+	        margin-top: 15px;
+
+
+
+
+}
+
+
+.one_trans p{
+	padding: 10px 10px 5px;
+    border-bottom: 1px solid #00000012;
+    opacity: 0.8;
+}
+
+.cards_body h3{
+	    font-size: 16px;
+    font-family: 'arialb';
+    opacity: 0.5;
+
+}
+
+.who h6{
+	font-size: 13px;
+	font-weight: 100;
+	font-family: serif;
+	opacity: 0.6;
+}
+
+.who h5 {
+    font-size: 16px;
+     font-weight: 100; 
+    opacity: 0.8;
+    font-family: 'arial';
+}
